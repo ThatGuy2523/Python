@@ -2,11 +2,11 @@ import math
 import time
 print("|------------------------|")
 print("|-The Quadratic Equation-|")
-print("|--------Solve [1]-------|")
-print("|---Facotrize---|")
+print("|--------Solve [x]-------|")
+print("|-----Factorise [y]------|")
 print("|------------------------|")
-choice = input("Make your choice -->")
 while True:
+    choice = input("Make your choice -->")
     if choice == "x":
         try:
             while True:

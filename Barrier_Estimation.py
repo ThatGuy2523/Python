@@ -5,13 +5,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#PRINT MY TEST TRACKS FOR TROUBLESHOOTING#
+'''#PRINT MY TEST TRACKS FOR TROUBLESHOOTING#
 with np.load('slam_test_tracks.npz') as data:
     a=data['track1_1']
     b=data['track1_2']
     c=data['track1_3']
 print(c)
-
+'''
 def quadratic_coefficient_generator(x,y): #Computes a quadratic function from three points#
     #INPUT# Takes in an array of three most recent x and y values.
     
